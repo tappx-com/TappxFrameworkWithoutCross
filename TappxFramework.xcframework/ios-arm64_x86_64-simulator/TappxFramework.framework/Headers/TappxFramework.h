@@ -29,6 +29,7 @@ extern NSString * const _Nonnull TappxNotificationUIInterfaceOrientationMaskLock
 
 @interface TappxFramework : NSObject
 
++ (void)setExtraTappxKey:(nonnull NSString *)tappxExtraKey;
 + (void)addTappxKey:(nonnull NSString *)tappxKey;
 + (void)addTappxKey:(nonnull NSString *)tappxKey fromNonNative:(nonnull NSString *)platform;
 + (void)addTappxKey:(nonnull NSString *)tappxKey testMode:(BOOL)test;
