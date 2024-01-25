@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "TappxFrameworkWithoutCross"
-  spec.version      = "4.0.9"
+  spec.version      = "4.0.10"
   spec.summary      = "Tappx SDK for iOS monetization (This is the SDK without GoogleMobileAds)."
   
   spec.description  = <<-DESC
